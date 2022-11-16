@@ -1,0 +1,78 @@
+#smile{
+    width: 400px;
+    height: 400px;
+    background-color: yellow;
+    border: 6px solid black;
+    border-radius: 50%;
+    align-items: center;
+    display: inline-block;
+    transition: 0.3s;
+    position: relative;
+    margin-left: 35%;
+    margin-top: 10%;
+
+}
+#eye1{
+    width: 50px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 30%;
+    transition: 0.3s;
+}
+#eye2{
+   width: 50px;
+    height: 70px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 55px; 
+    transition: 0.3s;
+}
+#agiz{
+    width: 200px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    margin-left:100px;
+    margin-top: 70px;
+    transition: 0.3s;
+}
+#eye1:hover{
+    width: 52px;
+    height: 72px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30%;
+    margin-top: 30%;
+}
+#eye2:hover{
+    width: 52px;
+    height: 72px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 55px; 
+}
+#agiz:hover{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left:100px;
+    margin-top: 70px;
+    border-radius: 30%;
+    border: 4px solid black;
+}
+#smile:hover{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(123, 255, 0);
+    border: 6px solid rgb(64, 16, 16);
+    border-radius: 50%;
+    align-items: center;
+    display: inline-block;
+}
